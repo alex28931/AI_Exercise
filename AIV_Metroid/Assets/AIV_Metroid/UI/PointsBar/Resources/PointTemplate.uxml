@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/AIV_Metroid/UI/PointsBar/Resources/PointBarControlUSS.uss?fileID=7433441132597879392&amp;guid=d8716dc293c44c04fa6d2a8be2d3bcee&amp;type=3#PointBarControlUSS" />
+    <ui:VisualElement name="PointBackground" class="pointBackground">
+        <ui:VisualElement name="Point" class="pointFull" />
+    </ui:VisualElement>
+</ui:UXML>

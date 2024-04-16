@@ -1,0 +1,17 @@
+{
+    "name": "AIV_Metroid_FSM",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2b9fe994e56399b40a145bb465704a06",
+        "GUID:68a2cdd032371dc45a5119e9466a2769"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

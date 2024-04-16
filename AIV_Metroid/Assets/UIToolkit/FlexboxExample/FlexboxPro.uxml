@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: column;">
+        <ui:VisualElement name="Elem1_C1" style="background-color: rgb(163, 255, 0); flex-basis: 250px; flex-shrink: 1; flex-grow: 1; flex-direction: row;">
+            <ui:Label tabindex="-1" text="Elem 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Elem1" style="flex-basis: 50px;" />
+            <ui:Label tabindex="-1" text="Elem2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Elem2" style="flex-basis: 50px;" />
+            <ui:VisualElement name="Elem3" style="background-color: rgba(255, 0, 186, 0.4); flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Elem2" style="background-color: rgb(7, 0, 255); flex-basis: 250px; flex-shrink: 2;" />
+    </ui:VisualElement>
+</ui:UXML>

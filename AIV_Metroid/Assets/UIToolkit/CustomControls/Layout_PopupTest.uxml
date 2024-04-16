@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/CustomControls/Resources/Stylesheet_PopupPanel.uss?fileID=7433441132597879392&amp;guid=72c5294b8ee37a7408ccff3005e71b34&amp;type=3#Stylesheet_PopupPanel" />
+    <ui:VisualElement name="Root" style="flex-grow: 1;" />
+</ui:UXML>

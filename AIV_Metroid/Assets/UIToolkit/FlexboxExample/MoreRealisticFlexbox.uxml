@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/FlexboxExample/MoreRealisticFlexbox.uss?fileID=7433441132597879392&amp;guid=00a0935323d6c0d4182389f85258e167&amp;type=3#MoreRealisticFlexbox" />
+    <ui:VisualElement name="Page" style="flex-grow: 1; flex-direction: column;">
+        <ui:VisualElement name="Header" style="flex-grow: 0; flex-basis: 20%; background-color: rgb(255, 255, 255); flex-direction: row; align-items: flex-end; justify-content: space-around;">
+            <ui:VisualElement name="Menu_O_1" class="menu_o" style="background-color: rgb(19, 0, 255); margin-right: 0; margin-left: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:VisualElement name="Menu_O_1" class="menu_o" style="background-color: rgb(254, 129, 0); margin-right: 0; margin-left: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:VisualElement name="Menu_O_1" class="menu_o" style="background-color: rgb(19, 0, 255); margin-right: 0; margin-left: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:VisualElement name="Menu_O_1" class="menu_o" style="background-color: rgb(254, 129, 0); margin-right: 0; margin-left: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:VisualElement name="Menu_O_1" class="menu_o" style="background-color: rgb(19, 0, 255); margin-right: 0; margin-left: 0; margin-top: 0; margin-bottom: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Body" style="flex-grow: 1; flex-basis: 80%; background-color: rgb(52, 123, 0);" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/AIV_Metroid/Scripts/UI/CustomControls/Editor/DialogueWindow.uss?fileID=7433441132597879392&amp;guid=ee9b46cd5c6925843b7d748a6c4369f3&amp;type=3#DialogueWindow" />
+    <Style src="project://database/Assets/AIV_Metroid/UI/DialogueSystem/Resources/DialogueUSS.uss?fileID=7433441132597879392&amp;guid=6120fb683b5dd4443b26075bd74ea01c&amp;type=3#DialogueUSS" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:VisualElement name="UpPart" style="flex-grow: 0; flex-basis: auto; flex-shrink: 0; margin-bottom: 25px;">
+            <ui:Label tabindex="-1" text="Wrap from CSV" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <uie:ObjectField label="Link the csv" name="CSV" />
+            <ui:Button text="IMPORT CSV" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ImportCSV" />
+            <ui:Button text="EXPORT CSV" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExportCSV" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; flex-shrink: 0; flex-basis: 20px; background-color: rgb(15, 0, 219);" />
+        <ui:VisualElement name="DownPart" style="flex-grow: 1; margin-top: 25px;">
+            <ui:Label tabindex="-1" text="Dialogues" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:ListView name="DialogueListView" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

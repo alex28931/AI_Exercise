@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="SlotRoot" class="slot_Root">
+        <ui:VisualElement name="Top" class="slot_Top">
+            <ui:VisualElement name="Image" class="slot_Image" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Bottom" class="slot_Bottom">
+            <ui:Label name="ItemName" text="Nome" class="slot_ItemName" />
+            <ui:Label tabindex="-1" text="30" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemCount" class="slot_ItemCount" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

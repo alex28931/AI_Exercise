@@ -1,0 +1,50 @@
+.button {
+    font-size: 25px;
+    -unity-text-align: middle-center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}
+
+VisualElement {
+    background-color: rgba(0, 24, 255, 0.07);
+}
+
+#BottomSection {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.internalVisualElement {
+    background-color: rgba(255, 29, 0, 0.12);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#MiddleSection Label {
+    font-size: 250px;
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(255, 0, 0);
+}
+
+.button:hover {
+    background-color: rgb(255, 228, 0);
+    transition-property: position;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+#MiddleSection .button:hover {
+}

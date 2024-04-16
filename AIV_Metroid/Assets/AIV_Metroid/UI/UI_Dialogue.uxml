@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:VisualElement name="BlankPart" style="flex-grow: 1; flex-basis: 70%;" />
+        <ui:VisualElement name="DialogueContainer" style="flex-grow: 1; flex-basis: 30%;">
+            <ui:VisualElement name="Baloon" style="flex-grow: 1; background-color: rgba(64, 61, 61, 0.72); margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; visibility: hidden;">
+                <ui:Label tabindex="-1" text="Questo è il mio magico dialogo belixximixximo" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DialogueText" style="flex-grow: 1; -unity-text-align: upper-left; font-size: 40px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

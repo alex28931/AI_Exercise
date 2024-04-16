@@ -1,0 +1,24 @@
+.basicSquareElem {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 235, 0);
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.basicSquareElem Label {
+    font-size: 60px;
+    -unity-text-align: middle-center;
+}
+
+.marker {
+    border-left-color: rgb(255, 0, 165);
+    border-right-color: rgb(255, 0, 165);
+    border-top-color: rgb(255, 0, 165);
+    border-bottom-color: rgb(255, 0, 165);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}

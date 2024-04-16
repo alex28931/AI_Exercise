@@ -1,0 +1,19 @@
+.dialogueContainer {
+}
+
+.dialogueEntryFather {
+    flex-direction: row;
+}
+
+.dialogueEntry_Text {
+    flex-basis: 80%;
+    flex-direction: row;
+}
+
+.dialogueEntry_ID {
+    flex-basis: 7%;
+}
+
+.dialogueEntry_Button {
+    flex-basis: 10%;
+}

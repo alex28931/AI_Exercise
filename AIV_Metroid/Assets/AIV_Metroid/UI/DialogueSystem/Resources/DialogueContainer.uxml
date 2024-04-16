@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="DialogueContainer" class="dialogueContainer">
+        <ui:Foldout text="Foldout" name="Dialogue" class="dialogueFoldout" />
+    </ui:VisualElement>
+</ui:UXML>

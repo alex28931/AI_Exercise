@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/FlexboxExample/Flexbox.uss?fileID=7433441132597879392&amp;guid=e2bc38761c6befe44a7f5783cebaa245&amp;type=3#Flexbox" />
+    <ui:VisualElement name="Root" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="Elem_1" style="background-color: rgb(255, 0, 0); flex-basis: 50%;">
+            <ui:VisualElement name="Elem_2" class="innerElements" style="flex-grow: 1; background-color: rgb(255, 215, 0);" />
+            <ui:VisualElement name="Elem_3" class="innerElements" style="flex-grow: 1; background-color: rgb(30, 0, 255);" />
+            <ui:VisualElement name="Elem_4" class="innerElements" style="flex-grow: 1; background-color: rgb(255, 0, 199);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Elem_5" style="background-color: rgb(74, 255, 0); flex-basis: 50%;">
+            <ui:VisualElement name="Elem_6" class="innerElements" style="flex-grow: 1; background-color: rgb(255, 215, 0);" />
+            <ui:VisualElement name="Elem_7" class="innerElements" style="flex-grow: 1; background-color: rgb(30, 0, 255);" />
+            <ui:VisualElement name="Elem_8" class="innerElements" style="flex-grow: 1; background-color: rgb(255, 0, 199);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/Query/queryUSS.uss?fileID=7433441132597879392&amp;guid=98855617aaa5922459fcf15367f5b371&amp;type=3#queryUSS" />
+    <ui:VisualElement name="MainContainer" style="flex-grow: 1; justify-content: center;">
+        <ui:VisualElement name="ElemContainer" style="flex-grow: 0; flex-direction: row; justify-content: center;">
+            <ui:VisualElement name="Elem1" class="basicSquareElem">
+                <ui:Label tabindex="-1" text="1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label1" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Elem2" class="basicSquareElem" style="background-color: rgb(62, 255, 0);">
+                <ui:Label tabindex="-1" text="2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label2" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Elem3" class="basicSquareElem" style="background-color: rgb(1, 0, 255);">
+                <ui:Label tabindex="-1" text="3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label3" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

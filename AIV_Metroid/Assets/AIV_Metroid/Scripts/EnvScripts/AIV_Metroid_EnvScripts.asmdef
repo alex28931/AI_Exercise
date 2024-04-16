@@ -1,0 +1,16 @@
+{
+    "name": "AIV_Metroid_EnvScripts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ebbafad64c2987c458c58d1047ee4010"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

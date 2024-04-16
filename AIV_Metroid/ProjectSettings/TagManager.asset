@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Player
+  - Enemy
+  - IgnorePlayer
+  - Probs
+  - CameraConfiner
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3988286837
+    locked: 0
+  - name: BehindCharacters
+    uniqueID: 3522539905
+    locked: 0
+  - name: Characters
+    uniqueID: 25772239
+    locked: 0
+  - name: AfterCharacters
+    uniqueID: 3960195267
+    locked: 0
+  - name: Front
+    uniqueID: 3862270721
+    locked: 0

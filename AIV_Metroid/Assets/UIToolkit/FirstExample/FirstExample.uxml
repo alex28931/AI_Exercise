@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/FirstExample/FirstExample.uss?fileID=7433441132597879392&amp;guid=55636847aa7c7fd4b9ae4f015c72271a&amp;type=3#FirstExample" />
+    <ui:VisualElement name="Root" style="flex-grow: 1; flex-direction: column;">
+        <ui:VisualElement name="TopSection" style="flex-grow: 0; flex-basis: 20%; flex-direction: row;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" class="button" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MiddleSection" style="flex-grow: 0; flex-basis: 60%; flex-direction: row;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+            <ui:VisualElement class="internalVisualElement" style="flex-grow: 0; flex-basis: 40%;">
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" text="Ciaone" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BottomSection" style="flex-grow: 0; flex-basis: 20%; flex-direction: row;">
+            <ui:VisualElement class="internalVisualElement" style="flex-grow: 1;" />
+            <ui:VisualElement class="internalVisualElement" style="flex-grow: 1;" />
+            <ui:VisualElement class="internalVisualElement" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/AIV_Metroid/UI/PointsBar/Resources/PointBarControlUSS.uss?fileID=7433441132597879392&amp;guid=3cd4dc58bc9be6444bfc9d088054b003&amp;type=3#PointBarControlUSS" />
+    <ui:VisualElement name="HUD_Container" style="flex-grow: 1;">
+        <ui:VisualElement name="Top" style="flex-basis: 15%; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
+            <PointBarControl Max_Points="8" Full_Points="8" name="HealthBar" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Empty" style="flex-basis: 65%;" />
+        <ui:VisualElement name="Bottom" style="flex-basis: 20%;" />
+    </ui:VisualElement>
+</ui:UXML>

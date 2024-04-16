@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="EntryFather" class="dialogueEntryFather">
+        <ui:UnsignedIntegerField value="42" name="Entry_ID" readonly="true" class="dialogueEntry_ID" />
+        <ui:TextField picking-mode="Ignore" value="filler text" name="Entry_Text" multiline="true" class="dialogueEntry_Text" style="white-space: normal;" />
+        <ui:Button text="Apply" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Entry_Apply" class="dialogueEntry_Button" />
+    </ui:VisualElement>
+</ui:UXML>

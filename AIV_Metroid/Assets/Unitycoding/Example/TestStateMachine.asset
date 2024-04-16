@@ -1,0 +1,628 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7841879672417409231
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f86776eed51fec45a8a3bc34430d6bb, type: 3}
+  m_Name: Any State
+  m_EditorClassIdentifier: 
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 25000
+    width: 150
+    height: 30
+  color: 2
+  comment: 
+  time: 0
+  name: Any State
+  isStartNode: 0
+  parent: {fileID: 11400000}
+  transitions: []
+  isSequence: 0
+  actions: []
+--- !u!114 &-7593440625652830920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66120749aee7b9843bc3e0f3d8829cb7, type: 3}
+  m_Name: Event.OnCustomEvent
+  m_EditorClassIdentifier: 
+  enabled: 1
+  isOpen: 1
+  _event: {fileID: -6424933074215471817}
+  parameter: {fileID: 0}
+--- !u!114 &-7031443844428905036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb277f6959ac73745a8dcde1fff07e7d, type: 3}
+  m_Name: New GameObject
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: Player
+  group: Default
+  value: {fileID: 0}
+  scenePath: 
+--- !u!114 &-6875898199812143468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c9e419f86a34748948479c8e6d347f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: 5492782560849983367}
+  fromNode: {fileID: -2887291999480980313}
+  mute: 0
+  conditions:
+  - {fileID: 909501576123248124}
+  - {fileID: 4305833768802164877}
+--- !u!114 &-6539773351553202436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca547654cae89c4cb9e889c2a674a70, type: 3}
+  m_Name: Rigidbody.SetVelocity
+  m_EditorClassIdentifier: 
+  enabled: 1
+  isOpen: 1
+  gameObject: {fileID: -2233876682588646972}
+  velocity: {fileID: -457881200219022758}
+  everyFrame: 0
+--- !u!114 &-6503429683715893121
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bd5068e326d5e4591acceca523563a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 0
+  name: None
+  group: Default
+  value: {x: 0, y: 0, z: 0}
+--- !u!114 &-6424933074215471817
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6221eae08e534b42b281da6a02edeb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 0
+  name: None
+  group: Default
+  value: Move
+--- !u!114 &-2887291999480980313
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7f47e6ef9b75e439c8ccfb10d6fdf0, type: 3}
+  m_Name: Idle
+  m_EditorClassIdentifier: 
+  position:
+    serializedVersion: 2
+    x: 25326.5
+    y: 24979
+    width: 150
+    height: 30
+  color: 5
+  comment: 
+  time: 0
+  name: Idle
+  isStartNode: 1
+  parent: {fileID: 11400000}
+  transitions:
+  - {fileID: -6875898199812143468}
+  - {fileID: -1139175588787357567}
+  isSequence: 0
+  actions:
+  - {fileID: 5451302214567018417}
+  - {fileID: -6539773351553202436}
+--- !u!114 &-2607802934519077625
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430ec49b4c8407540b4a3b207ebc3881, type: 3}
+  m_Name: New Float
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: IdleToMoveExitTime
+  group: Default
+  value: 0
+--- !u!114 &-2233876682588646972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb277f6959ac73745a8dcde1fff07e7d, type: 3}
+  m_Name: Owner
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: Owner
+  group: Default
+  value: {fileID: 0}
+  scenePath: 
+--- !u!114 &-1139175588787357567
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c9e419f86a34748948479c8e6d347f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: 5492782560849983367}
+  fromNode: {fileID: -2887291999480980313}
+  mute: 0
+  conditions:
+  - {fileID: -7593440625652830920}
+--- !u!114 &-488342552407361575
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca547654cae89c4cb9e889c2a674a70, type: 3}
+  m_Name: Rigidbody.SetVelocity
+  m_EditorClassIdentifier: 
+  enabled: 1
+  isOpen: 1
+  gameObject: {fileID: 4857047297687115981}
+  velocity: {fileID: 432634299345072303}
+  everyFrame: 0
+--- !u!114 &-457881200219022758
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bd5068e326d5e4591acceca523563a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 0
+  name: None
+  group: Default
+  value: {x: 0, y: 0, z: 0}
+--- !u!114 &-353313100516551046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb277f6959ac73745a8dcde1fff07e7d, type: 3}
+  m_Name: Owner
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: Owner
+  group: Default
+  value: {fileID: 0}
+  scenePath: 
+--- !u!114 &-7911655916262089
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea61a25830fa04a40b5615edd61bb9bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 0
+  name: None
+  group: Default
+  value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16a3faa3edd0ae4aa7bb254ef5b7efe, type: 3}
+  m_Name: TestStateMachine
+  m_EditorClassIdentifier: 
+  position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  color: 1
+  comment: 'Macchina di test
+
+'
+  time: 0
+  name: TestStateMachine
+  isStartNode: 0
+  parent: {fileID: 0}
+  transitions: []
+  variables:
+  - {fileID: 898177368751839088}
+  - {fileID: -2607802934519077625}
+  - {fileID: 6281582739938386568}
+  - {fileID: -7031443844428905036}
+  nodes:
+  - {fileID: -7841879672417409231}
+  - {fileID: -2887291999480980313}
+  - {fileID: 5492782560849983367}
+--- !u!114 &432634299345072303
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bd5068e326d5e4591acceca523563a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: MoveVelocityVector
+  group: Default
+  value: {x: 10, y: 0, z: 0}
+--- !u!114 &898177368751839088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb277f6959ac73745a8dcde1fff07e7d, type: 3}
+  m_Name: Owner
+  m_EditorClassIdentifier: 
+  isHidden: 1
+  isShared: 1
+  name: Owner
+  group: Default
+  value: {fileID: 0}
+  scenePath: 
+--- !u!114 &909501576123248124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ce44f4ff7859f449b4c819f29f73188, type: 3}
+  m_Name: Time.ExitTime
+  m_EditorClassIdentifier: 
+  enabled: 1
+  isOpen: 1
+  time: {fileID: 5127538093234524156}
+  remember: {fileID: -7911655916262089}
+--- !u!114 &2181640006194356322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb277f6959ac73745a8dcde1fff07e7d, type: 3}
+  m_Name: Owner
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: Owner
+  group: Default
+  value: {fileID: 0}
+  scenePath: 
+--- !u!114 &2750503901666652694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb277f6959ac73745a8dcde1fff07e7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: Player
+  group: Default
+  value: {fileID: 0}
+  scenePath: 
+--- !u!114 &3479047372015941703
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6221eae08e534b42b281da6a02edeb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 0
+  name: None
+  group: Default
+  value: Run
+--- !u!114 &4305833768802164877
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e27e6c1fb4be0341ae6b80bad115f39, type: 3}
+  m_Name: Vector3.Distance
+  m_EditorClassIdentifier: 
+  enabled: 1
+  isOpen: 1
+  a: {fileID: -6503429683715893121}
+  first: {fileID: 5214236566117775557}
+  b: {fileID: 8932580320448544355}
+  second: {fileID: 2750503901666652694}
+  comparer: 0
+  value: {fileID: 8072495971981005208}
+--- !u!114 &4857047297687115981
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb277f6959ac73745a8dcde1fff07e7d, type: 3}
+  m_Name: Owner
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: Owner
+  group: Default
+  value: {fileID: 0}
+  scenePath: 
+--- !u!114 &5127538093234524156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430ec49b4c8407540b4a3b207ebc3881, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: IdleToMoveExitTime
+  group: Default
+  value: 5
+--- !u!114 &5214236566117775557
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb277f6959ac73745a8dcde1fff07e7d, type: 3}
+  m_Name: Owner
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: Owner
+  group: Default
+  value: {fileID: 0}
+  scenePath: 
+--- !u!114 &5451302214567018417
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad62077ce829d04c8fbafa35bc0f331, type: 3}
+  m_Name: Animator.SetTrigger
+  m_EditorClassIdentifier: 
+  enabled: 1
+  isOpen: 1
+  gameObject: {fileID: 2181640006194356322}
+  parameter: {fileID: 9174584679748024369}
+  everyFrame: 0
+--- !u!114 &5492782560849983367
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7f47e6ef9b75e439c8ccfb10d6fdf0, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  position:
+    serializedVersion: 2
+    x: 25326
+    y: 25111.5
+    width: 150
+    height: 30
+  color: 0
+  comment: 
+  time: 0
+  name: Move
+  isStartNode: 0
+  parent: {fileID: 11400000}
+  transitions: []
+  isSequence: 0
+  actions:
+  - {fileID: 9026093718090212453}
+  - {fileID: -488342552407361575}
+--- !u!114 &6281582739938386568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bd5068e326d5e4591acceca523563a, type: 3}
+  m_Name: New Vector3
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 1
+  name: MoveVelocityVector
+  group: Default
+  value: {x: 0, y: 0, z: 0}
+--- !u!114 &8072495971981005208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430ec49b4c8407540b4a3b207ebc3881, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 0
+  name: None
+  group: Default
+  value: 50
+--- !u!114 &8932580320448544355
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bd5068e326d5e4591acceca523563a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 0
+  name: None
+  group: Default
+  value: {x: 0, y: 0, z: 0}
+--- !u!114 &9026093718090212453
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad62077ce829d04c8fbafa35bc0f331, type: 3}
+  m_Name: Animator.SetTrigger
+  m_EditorClassIdentifier: 
+  enabled: 1
+  isOpen: 1
+  gameObject: {fileID: -353313100516551046}
+  parameter: {fileID: 3479047372015941703}
+  everyFrame: 0
+--- !u!114 &9174584679748024369
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6221eae08e534b42b281da6a02edeb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHidden: 0
+  isShared: 0
+  name: None
+  group: Default
+  value: Idle

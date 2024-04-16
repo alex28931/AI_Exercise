@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="UI_Slot" src="project://database/Assets/UIToolkit/Template/UI_Slot.uxml?fileID=9197481963319205126&amp;guid=3af891a582a37504285635a211228098&amp;type=3#UI_Slot" />
+    <Style src="project://database/Assets/UIToolkit/Template/TemplateExample.uss?fileID=7433441132597879392&amp;guid=fc96b768ef4001445a1ba481b68d123d&amp;type=3#TemplateExample" />
+    <ui:VisualElement name="InvetoryUI" style="flex-grow: 0; flex-direction: row; flex-wrap: wrap;">
+        <ui:Instance template="UI_Slot" name="UI_Slot" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

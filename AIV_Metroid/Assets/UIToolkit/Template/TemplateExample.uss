@@ -1,0 +1,17 @@
+.slot_Top {
+    flex-basis: 50%;
+}
+
+.slot_Bottom {
+    flex-basis: 50%;
+}
+
+.slot_Root {
+    flex-direction: column;
+}
+
+.slot_Image {
+    flex-basis: 50%;
+    background-color: rgb(255, 0, 0);
+    flex-grow: 1;
+}
